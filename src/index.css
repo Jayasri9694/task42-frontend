@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 50px;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.heading-container button{
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background: green;
+  color: #fff;
+}
+.heading-container button:hover{
+  background: rgb(5, 157, 5);;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-style h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.form-style h2{
+  padding-bottom: 5px;
+}
+
+.form-style input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.form-style button {
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-style button:hover {
+  background: #0056b3;
+}
+
+.url-list h2{
+  padding-top: 10px ;
+}
+
+.url-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.url-list li {
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  padding-right: 50px ;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.url-list a {
+  color: #007bff;
+}
+
+.url-list a:hover {
+  text-decoration: underline;
+}
+
+.url-list p{
+  padding: 5px;
+}
+
+
+.App .new-short-url h2{
+  padding-bottom: 5px;
+}
+.App .new-short-url p{
+  padding: 5px;
+}
+.App .new-short-url a{
+  color: #007bff;
+}
+
+.App h1{
+  padding-bottom: 5px;
+}
